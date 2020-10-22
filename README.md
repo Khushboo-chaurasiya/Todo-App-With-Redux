@@ -1,3 +1,6 @@
-# Todo-App-With-Redux & JEST
+Todo Application
+--------------------
+This app is made using React library
+You may use these commands to run this application
 
-Please run npm install to run App
+npm start
