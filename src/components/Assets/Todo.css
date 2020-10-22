@@ -1,0 +1,107 @@
+.inputBox {
+  width: 50%;
+  padding: 1%;
+  font-size: large;
+  margin-left: 25%;
+  margin-right: 1%;
+}
+
+.listItem {
+  padding: 1%;
+  font-size: large;
+  margin-left: 1%;
+  margin-right: 1%;
+  border: 1px solid #ccc;
+  display: flex;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  align-items: center;
+  border-radius: 40px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+.sendButton {
+  flex: 0 0 auto;
+  color: hsl(180, 52%, 96%) !important;
+  padding: 12px;
+  overflow: visible;
+  font-size: 1.5rem;
+  text-align: center;
+  transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 50%;
+  border: 0;
+  cursor: pointer;
+  margin: 0;
+  display: inline-flex;
+  outline: 0;
+  padding: 0;
+  position: relative;
+  align-items: center;
+  user-select: none;
+  border-radius: 0;
+  vertical-align: middle;
+  -moz-appearance: none;
+  justify-content: center;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.rightButton {
+  flex: 0 0 auto;
+  cursor: pointer;
+  margin: 0;
+  display: inline-flex;
+  outline: 0;
+  padding: 0;
+  position: relative;
+  align-items: center;
+  user-select: none;
+  border-radius: 0;
+  vertical-align: middle;
+  -moz-appearance: none;
+  justify-content: center;
+  margin-right: 80%;
+}
+
+.bottomButton {
+  border: 0px;
+  margin-top: 5%;
+  font-weight: 700;
+  font-size: 0.8125rem;
+  border-radius: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 10px;
+  font-size: small;
+  font-weight: 700;
+  background-color: hsl(180, 52%, 96%);
+}
+
+.count {
+  position: absolute;
+  padding-top: 8px;
+  left: 31%;
+  font-weight: 500;
+  font-size: 0.9125rem;
+}
+
+.NoDataFound {
+  text-align: center;
+}
+
+body {
+  background-color: hsl(180, 52%, 96%) !important;
+}
+
+.outerDiv {
+  background-color: hsl(180, 40%, 71%) !important;
+  margin-top: 2.5% !important;
+  width: 50%;
+  margin: auto;
+  min-height: 550px;
+}
